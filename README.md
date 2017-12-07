@@ -16,14 +16,14 @@ The goal of this assignment is to explore the concept of 'bias' through data on 
 ### ORES
 * [ORES](https://www.mediawiki.org/wiki/ORES)  (Objective Revision Evaluation Service) is a web service and API that provides machine learning as a service for Wikimedia projects maintained by the Scoring Platform team. The system is designed to help automate critical wiki-work – for example, vandalism detection and removal. Currently, the two general types of scores that ORES generates are in the context of "edit quality" and "article quality".More detailed API documentation can be found [here](https://www.mediawiki.org/wiki/ORES). 
 
-## Source data
-Wikipedia data:
-
 ## License of the source data
 * MIT License(https://opensource.org/licenses/MIT)
 ## Wikimedia Foundation terms of use
 https://wikimediafoundation.org/wiki/Terms_of_Use/en
 
+
+## Source data
+Wikipedia data:
 
 Column name | Value | Description
 --- | --- | ---
@@ -49,3 +49,4 @@ artcile_name | string | artcile name on Wikipedia
 revision_id | int | revision id required to make ORES api call
 artcile_quality | string | predicted quality returned from ORES api call
 population | int | population size of the country
+
