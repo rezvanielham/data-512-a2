@@ -10,8 +10,8 @@ The goal of this assignment is to explore the concept of 'bias' through data on 
 * list the countries with the highest and lowest proportion of high quality articles about politicians.
 
 ## Steps to Reproduce 
-*Clone the repository
-*Run the Jupyter Notebook named "hcds-a2-bias" : Note that call to ORES service might take close to an hour to complete.
+* Clone the repository.
+* Run the Jupyter Notebook named "hcds-a2-bias" : Note that call to ORES service might take close to an hour to complete.
 
 ### ORES
 * [ORES (Objective Revision Evaluation Service)](https://en.wikipedia.org/wiki/Aaron_Halfaker https://www.mediawiki.org/wiki/ORES) is a web service and API that provides machine learning as a service for Wikimedia projects maintained by the Scoring Platform team. The system is designed to help automate critical wiki-work – for example, vandalism detection and removal. Currently, the two general types of scores that ORES generates are in the context of "edit quality" and "article quality".More detailed API documentation can be found [here](https://www.mediawiki.org/wiki/ORES). 
